@@ -1,0 +1,11 @@
+.list {
+  margin: 20px 0;
+}
+
+.item {
+  color: var(--text-color);
+
+  &:hover {
+    color: var(--text-color-hover);
+  }
+}

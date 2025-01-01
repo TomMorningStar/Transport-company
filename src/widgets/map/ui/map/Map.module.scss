@@ -1,0 +1,11 @@
+.map {
+  height: calc(100vh - 160px);
+  width: calc(100vw - 60px);
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.title {
+  margin: 20px 0;
+}

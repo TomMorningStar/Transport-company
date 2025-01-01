@@ -1,0 +1,16 @@
+.item {
+  border: 1px solid var(--object-color);
+  padding: 10px;
+  width: max-content;
+  display: inline-block;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+
+  &:hover {
+    border: 1px solid var(--object-color-secondary);
+  }
+}
+
+.paragraph {
+  margin: 0;
+}

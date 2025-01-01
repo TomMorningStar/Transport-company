@@ -1,0 +1,19 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.back {
+  border: 1px solid var(--object-color);
+  text-decoration: none;
+  padding: 10px 20px;
+  color: var(--text-color);
+  transition: all 0.3s ease-in-out;
+  text-transform: uppercase;
+  font-weight: 700;
+
+  &:hover {
+    border: 1px solid var(--object-color-secondary);
+  }
+}

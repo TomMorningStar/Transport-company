@@ -1,0 +1,20 @@
+:root {
+  --object-color: #33a7ff;
+  --object-color-secondary: #400ff1;
+  --text-color-hover: #003d9e;
+}
+
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  min-width: 320px;
+}
+
+.leaflet-marker-icon {
+  background-color: unset;
+  border: none;
+}
